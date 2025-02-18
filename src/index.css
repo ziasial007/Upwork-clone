@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.btnn{
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+  transition: all .3s ease-in;
+}
+.btnn:hover{
+ background-color: rgba(6, 73, 6, 0.829);
+}
+
+
+.side-2{
+    position: relative;
+}
+.side-2::before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 5px;
+    background-color: green;
+    left: 40px;   
+}
+.box-hide{
+  display: none;
+}
+.box-show{
+  display: flex;
+ height: 89vh;
+ top: 64px;
+ position:absolute ;
+}
+/* ///// navbar/// */
+.sec li:hover{
+  color: green;
+  text-decoration: underline;
+}
+
+
+
+
+
+
