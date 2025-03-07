@@ -40,7 +40,7 @@ const Join = () => {
                 <div className="hello flex justify-center items-center gap-10">
                  {client === 0 && (
                     <button className='btn bg-red-600 py-2 px-4 rounded'>
-                       Join as Client
+                       Join as  Client
                     </button>
                     )}
                 {
